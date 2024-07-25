@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce-ShoppingCart | Korsat X Parmaga</title>
+
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles  -->
+    <link rel="stylesheet" href="sportstyle.css">
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    <!-- HEADER  -->
+    <header>
+        <!-- NAV  -->
+        <div class="nav container">
+            <a href="#" class="logo"><span>Herbalife</span></a>
+            <!-- CART ICON  -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!-- CONTENT  -->
+                <div class="cart-content">
+
+
+                </div>
+                <h4>Congratulations!!! Free Delivery*</h4>
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">₹0</div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy" href="checkout.html">Buy Now</button>
+                <!-- CART CLOSE  -->
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+    </header><br><br><br>
+    
+    <div class="navbar">
+        <a href="index.html">Home</a>
+     
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Products
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="weightloss.html">Weight-Loss</a>
+          <a href="weightgain.html">Weight-gain</a>
+          <a href="healthproblems.html">Health-Problems</a>
+          <a href="sports.html">Sports-Nutrition</a>
+      </div>
+      </div> 
+      <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Results
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Weight-Loss</a>
+            <a href="#">Weight-gain</a>
+            <a href="#">Health-Problems</a>
+            
+        </div>
+      </div>
+       
+    </div>
+
+    <!-- SHOP SECTION  -->
+    <section class="shop container">
+        <h2 class="section-title">Weight-Gain Products</h2>
+  
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="R.jpg" alt="" class="product-img">
+                <h2 class="product-title">H24 Hydrate</h2>
+                <span class="product-price">₹1786</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="R.jpg" alt="" class="product-img">
+                <h2 class="product-title">H24 Rebuild</h2>
+                <span class="product-price">₹2854</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+         
+
+        <!-- BOX 3 -->
+        <div class="product-box">
+            <img src="R.jpg" alt="" class="product-img">
+            <h2 class="product-title">Personalise Protein Powder-400gm (PPP)</h2>
+            <span class="product-price">₹2711</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="R.jpg" alt="" class="product-img">
+                <h2 class="product-title">Personalised Protein Powder-200gm (PPP)</h2>
+                <span class="product-price">₹1413</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+                    <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="R.jpg" alt="" class="product-img">
+                <h2 class="product-title"> Afresh Energy Drink(Ginger)</h2>
+                <span class="product-price">₹885</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+                <!-- BOX 6 -->
+                <div class="product-box">
+                    <img src="R.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Afresh Energy Drink(Cardamom)</h2>
+                    <span class="product-price">₹885</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+
+                    <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="R.jpg" alt="" class="product-img">
+                <h2 class="product-title">Afresh Energy Drink(Lemon)</h2>
+                <span class="product-price">₹885</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+                <!-- BOX 8 -->
+                <div class="product-box">
+                    <img src="R.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Afresh Energy Drink(Peach)</h2>
+                    <span class="product-price">₹885</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+
+                    <!-- BOX 9 -->
+            <div class="product-box">
+                <img src="R.jpg" alt="" class="product-img">
+                <h2 class="product-title">Afresh Energy Drink(Natural Tulsi)</h2>
+                <span class="product-price">₹885</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+                <!-- BOX 10 -->
+                <div class="product-box">
+                    <img src="R.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Afresh Energy Drink (Kashmiri Kawa)</h2>
+                    <span class="product-price">₹885</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+
+    
+        </div>
+
+
+    </section>
+
+    <!-- link js  -->
+    <script src="sportapp.js"></script>
+
+    <footer>
+        For More Information <br>
+        Contact Us!!<br>
+       Mo. 9723386585\9904072513<br>
+       E-mail adress- vanshkprajapati411@gmail.com<br><br><br>
+     
+     
+       <h3>
+     
+       <a href="index.html">Home</a><br>
+       <a href="weightloss.html">Weight-Loss</a><br>
+       <a href="weightgain.html">Weight-Gain Nutrition</a><br>
+       <a href="sports.html">Sports-Nutrition</a><br>
+       <a href="healthproblems.html">Other Health Nutritions</a><br>
+       <a href="">Home</a><br>
+       <a href="">Home</a><br>
+       <a href="">Home</a><br>
+       <a href="">Home</a><br>
+       <a href="">Home</a><br>
+     
+     </h3>
+     
+     <center><p>&copy; VPSS</p>
+     
+       <img src="logo.PNG" style="height: 200px; width: auto;"
+     
+     
+     
+     </center>
+     </footer>
+</body>
+
+</html>
+
