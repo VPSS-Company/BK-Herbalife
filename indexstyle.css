@@ -211,9 +211,6 @@
 
   .container {
     text-align: center; 
-        display: block;
-  margin: auto; /* Center the image horizontally */
-  max-width: 80%; /* Adjust as needed */
-  height: auto;
+    margin-top: 1rem ;
   }
   
